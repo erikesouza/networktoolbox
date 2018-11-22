@@ -1,0 +1,10 @@
+Each student will receive a new AWS account with 02 VPCs one at us-east-1 and another at sa-east-1
+You can deploy the VPCs and instances trough CloudFormation Templates
+
+OBSERVATION: Before running these templates, log into the account and create and download two key-keypairs:
+@us-east-1: Key-pair name: bs-net-admin
+@sa-east-1: Key-pair name: bs-saopaulo 
+Use your preferred stack name – I used bs-net205
+There is no dependency between the templates. You can run both at the same time
+https://s3.amazonaws.com/bs-cloudformation/cloudformer.bs-sa-east-1
+https://s3.amazonaws.com/bs-cloudformation/cloudformer.bs-us-east-1
